@@ -1029,6 +1029,13 @@ section,
   margin-bottom: -100px;
 }
 
+@media (max-width: 992px) {
+  .about .content .img-overlap {
+    margin-bottom: 10px;
+  }
+  
+}
+
 .about p {
   color: var(--contrast-color);
 }
