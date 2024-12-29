@@ -58,9 +58,9 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html" class="active">About</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Experience OCCD</a></li>
-            <li><a href="#">Membership</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="experienceoccd.html">Experience OCCD</a></li>
+            <li><a href="membership.html">Membership</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -140,92 +140,67 @@
             </div>
           </div>
         </section>
- 
- 
- 
-      <!-- Call To Action Section -->
-      <section
-        id="call-to-action"
-        class="call-to-action section light-background"
-      >
-        <div class="content">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
-                <h3>Subscribe To Our Newsletter</h3>
-                <p class="opacity-50">
-                  Keep your finger on the pulse of all the exciting events happening in OCCD.
-                </p>
-              </div>
-              <div class="col-lg-6">
-                <form
-                  action="forms/newsletter.php"
-                  class="form-subscribe php-email-form"
-                >
-                  <div class="form-group d-flex align-items-stretch">
-                    <input
-                      type="email"
-                      name="email"
-                      class="form-control h-100"
-                      placeholder="Enter your e-mail"
-                    />
-                    <input
-                      type="submit"
-                      class="btn btn-secondary px-4"
-                      value="Subcribe"
-                    />
-                  </div>
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your subscription request has been sent. Thank you!
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Call To Action Section -->
     </main>
 
     <footer id="footer" class="footer dark-background">
-      <div class="footer-top">
-
-      <div class="copyright text-center">
-        <div class="col-sm text-center donationButton">
-          <button class="donationButton">Donate to OCCD</button>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-4 order-2 order-lg-0 text-center text-lg-start">
+          <div>
+            <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+              <a href="https://www.facebook.com/profile.php?id=61556884206689"><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="copyright">
+            © Copyright 2024. <strong>Oak Cliff Cultural District</strong>. <br>All Rights Reserved.
+          </div>
         </div>
-        <div
-          class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"
-        >
-          <div
-            class="d-flex flex-column align-items-center align-items-lg-start"
-          >
-            <div>
-              © Copyright <strong><span>Oak Cliff Cultural District</span></strong
-              >. <br>All Rights Reserved
-            </div>
-            <div class="credits">
-              <!-- All the links in the footer should remain intact. -->
-              <!-- You can delete the links only if you purchased the pro version. -->
-              <!-- Licensing information: https://bootstrapmade.com/license/ -->
-              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ 
-              Designed by
-              <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed
-              by <a href="https://themewagon.com">ThemeWagon</a>-->
+        <div class="col-lg-4 text-center order-1 order-lg-1 p-5 p-lg-0">
+          <button class="btn donationButton">Donate to OCCD</button>
+        </div>
+        <div class="col-lg-4 order-0 order-lg-2">
+          <div class="content">
+            <div class="">
+              <div class="align-items-center">
+                <div class="text-center text-lg-end">
+                  <h6>Subscribe To Our Newsletter</h3>
+                  <p class="opacity-50">
+                    Keep your finger on the pulse of all the exciting events happening in OCCD.
+                  </p>
+                </div>
+                <div class="">
+                  <form
+                    action="forms/newsletter.php"
+                    class="form-subscribe php-email-form"
+                  >
+                    <div class="input-group">
+                      <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Enter your e-mail"
+                      aria-label="Enter your e-mail" aria-describedby="Subcribe"
+                    />
+                    <button class="btn btn-secondary" type="submit" id="Subcribe">Subcribe</button>
+  
+  
+                    </div>
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your subscription request has been sent. Thank you!
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-            <a href="https://www.facebook.com/profile.php?id=61556884206689"><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-          </div>
-
         </div>
       </div>
-    </footer>
-
+      </div>
+     </footer>
+  
     <!-- Scroll Top -->
     <a
       href="#"

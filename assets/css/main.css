@@ -91,6 +91,10 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.experienceHeader {
+  margin-top: 70px;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -583,7 +587,7 @@ h6 {
   padding: 16px 20px;
 }
 
- .donationButton:hover {
+.donationButton:hover {
   background-color: #bd6f1c;
 }
 
@@ -1033,7 +1037,6 @@ section,
   .about .content .img-overlap {
     margin-bottom: 10px;
   }
-  
 }
 
 .about p {
@@ -1451,4 +1454,11 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contactImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
