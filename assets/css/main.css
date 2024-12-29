@@ -812,6 +812,7 @@ section,
   align-items: center;
   flex-direction: column;
   z-index: 3;
+  text-align: center;
 }
 
 .hero h2 {
@@ -1461,4 +1462,12 @@ section,
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.wrappedImage {
+  display: flex;
+  float: right;
+  width: 500px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
