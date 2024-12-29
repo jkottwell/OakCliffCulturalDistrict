@@ -1308,40 +1308,6 @@ section,
   border-radius: 6px;
 }
 
-.about-3 .list-check {
-  margin-bottom: 50px;
-}
-
-.about-3 .list-check li {
-  display: block;
-  padding-left: 30px;
-  position: relative;
-}
-
-.about-3 .list-check li:before {
-  content: "\f26e";
-  display: inline-block;
-  font-family: "bootstrap-icons" !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  vertical-align: -0.125em;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  top: 0.1rem;
-  font-size: 20px;
-  left: 0;
-  color: var(--accent-color);
-}
-
-.about-3 .pulsating-play-btn {
-  position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
-}
-
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
